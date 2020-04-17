@@ -428,7 +428,7 @@
             // 
             this.quitToolStripMenuItem.BackColor = System.Drawing.SystemColors.Menu;
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(97, 22);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
@@ -445,7 +445,7 @@
             // 
             this.aboutToolStripMenuItem.BackColor = System.Drawing.SystemColors.Menu;
             this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
-            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(108, 22);
             this.aboutToolStripMenuItem.Text = "About";
             this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
@@ -499,7 +499,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MediaDetailsForm";
-            this.Text = "MovieMatch";
+            this.Text = "MovieMatch 2.0";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MediaDetailsForm_FormClosing);
             this.Load += new System.EventHandler(this.MediaDetailsForm_Load);
             this.groupBox1.ResumeLayout(false);
