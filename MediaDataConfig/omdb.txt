@@ -1,0 +1,36 @@
+omdbapi search with API key:
+http://www.omdbapi.com/?apikey=7e67ec6e&t=knives+out
+
+
+themoviedb Get Poster:
+Search by imdb Id:
+https://api.themoviedb.org/3/find/tt8946378?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&language=en-US&external_source=imdb_id
+Response:
+{"movie_results":[{"id":546554,"video":false,"vote_count":3224,"vote_average":7.8,"title":"Knives Out","release_date":"2019-11-27","original_language":"en","original_title":"Knives Out","genre_ids":[35,9648,53],"backdrop_path":"/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg","adult":false,"overview":"When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.","poster_path":"/pThyQovXQrw2m0s9x82twj48Jq4.jpg","popularity":85.81}],"person_results":[],"tv_results":[],"tv_episode_results":[],"tv_season_results":[]}
+
+Poster Url:
+reduced size:
+http://image.tmdb.org/t/p/w500/pThyQovXQrw2m0s9x82twj48Jq4.jpg
+
+original size:
+http://image.tmdb.org/t/p/original/pThyQovXQrw2m0s9x82twj48Jq4.jpg
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Other searches:
+
+Search:
+https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=knives%20out
+Response:
+{"page":1,"total_results":3,"total_pages":1,"results":[
+{"popularity":85.81,"vote_count":3224,"video":false,"poster_path":"\/pThyQovXQrw2m0s9x82twj48Jq4.jpg","id":546554,"adult":false,"backdrop_path":"\/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg","original_language":"en","original_title":"Knives Out","genre_ids":[35,9648,53],"title":"Knives Out","vote_average":7.8,"overview":"When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.","release_date":"2019-11-27"},{"popularity":0.979,"vote_count":0,"video":false,"poster_path":"\/nlG6MvG8EXtEqUjNNN85UWvtAod.jpg","id":481638,"adult":false,"backdrop_path":"\/auqC7coSaEJM7rc9BmLZqdyUzyv.jpg","original_language":"pl","original_title":"Knives out","genre_ids":[18],"title":"Knives out","vote_average":0,"overview":"","release_date":"2016-07-26"},{"popularity":0.626,"vote_count":0,"video":false,"poster_path":null,"id":661374,"adult":false,"backdrop_path":null,"original_language":"en","original_title":"Untitled 'Knives Out' Sequel","genre_ids":[35,80,18,9648],"title":"Untitled 'Knives Out' Sequel","vote_average":0,"overview":"Plot unknown. Sequel to the 2019 film \"Knives Out\".","release_date":""}]}
+
+Full details:
+https://api.themoviedb.org/3/movie/546554?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb
+Response:
+{"adult":false,"backdrop_path":"/AbRYlvwAKHs0YuyNO6NX9ofq4l6.jpg","belongs_to_collection":null,"budget":40000000,"genres":[{"id":9648,"name":"Mystery"},{"id":53,"name":"Thriller"},{"id":35,"name":"Comedy"}],"homepage":"https://www.knivesout.movie/","id":546554,"imdb_id":"tt8946378","original_language":"en","original_title":"Knives Out","overview":"When renowned crime novelist Harlan Thrombey is found dead at his estate just after his 85th birthday, the inquisitive and debonair Detective Benoit Blanc is mysteriously enlisted to investigate. From Harlan's dysfunctional family to his devoted staff, Blanc sifts through a web of red herrings and self-serving lies to uncover the truth behind Harlan's untimely death.","popularity":85.81,"poster_path":"/pThyQovXQrw2m0s9x82twj48Jq4.jpg","production_companies":[{"id":1632,"logo_path":"/cisLn1YAUuptXVBa0xjq7ST9cH0.png","name":"Lionsgate","origin_country":"US"},{"id":7493,"logo_path":"/452FO4LcI6lA6bfgl6w1kQYRBlr.png","name":"FilmNation Entertainment","origin_country":"US"},{"id":11092,"logo_path":null,"name":"Ram Bergman Productions","origin_country":"US"},{"id":37871,"logo_path":null,"name":"T-Street Productions","origin_country":""}],"production_countries":[{"iso_3166_1":"US","name":"United States of America"}],"release_date":"2019-11-27","revenue":308901585,"runtime":131,"spoken_languages":[{"iso_639_1":"es","name":"Espa?ol"},{"iso_639_1":"en","name":"English"}],"status":"Released","tagline":"Hell, any of them could have done it.","title":"Knives Out","video":false,"vote_average":7.8,"vote_count":3230}
+
+
+
+
+https://api.themoviedb.org/3/find/tt8946378?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&language=en-US&external_source=imdb_id

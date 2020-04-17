@@ -1,0 +1,3 @@
+Add new row under 'Property':
+Property: DISABLEADVTSHORTCUTS
+Value: 1
