@@ -499,7 +499,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "MediaDetailsForm";
-            this.Text = "MovieMatch 2.0";
+            this.Text = "MovieMatch 1.51";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.MediaDetailsForm_FormClosing);
             this.Load += new System.EventHandler(this.MediaDetailsForm_Load);
             this.groupBox1.ResumeLayout(false);
